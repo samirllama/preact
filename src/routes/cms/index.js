@@ -1,7 +1,7 @@
 import style from "./style.css";
 import { h } from "preact";
 import { useState, useCallback } from "preact/hooks";
-import create-model from "./../utils/create-model.js";
+import createModel from "preact-1/src/utils/create-model.js";
 
 const Test = () => {
   const [value, setValue] = useState(0);
