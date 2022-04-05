@@ -8,6 +8,7 @@
     "serve": "sirv build --port 8080 --cors --single",
     "dev": "preact watch",
     "lint": "eslint src",
+    "format": "prettier --write \"src/**/*.{js, jsx}\"",
     "test": "jest"
   },
   "eslintConfig": {
